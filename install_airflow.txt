@@ -1,0 +1,13 @@
+pip install SQLAlchemy==1.4.35
+
+
+pip install  psutil==5.9.0
+
+pip install "apache-airflow==2.3.3" --constraint "https://raw.githubusercontent.com/apache/airflow/constraints-2.3.3/constraints-3.9.txt"
+
+
+start the service
+
+set AIRFLOW_HOME=~/airflow
+
+airflow standalone
